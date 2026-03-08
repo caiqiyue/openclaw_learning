@@ -1,0 +1,22 @@
+*.pdf
+
+# Local learning materials and source archives
+/openclaw-learning/OpenClaw项目源码/
+/openclaw-learning/课件/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# mini-calw build/install artifacts
+/mini-calw/source-code/frontend/node_modules/
+/mini-calw/source-code/frontend/.next/
+/mini-calw/source-code/frontend/dist/
+/mini-calw/source-code/frontend/build/
+/mini-calw/source-code/backend/.venv/
+/mini-calw/source-code/backend/venv/
+/mini-calw/source-code/backend/__pycache__/
+/mini-calw/source-code/backend/**/__pycache__/
+/mini-calw/source-code/backend/.pytest_cache/
+/mini-calw/source-code/backend/.mypy_cache/
